@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource CompactMode="1" Language="English">
+  <string id="40" value="No information on board."/>
+  <string id="41" value="Normal"/>
+  <string id="42" value="Listen"/>
+  <string id="43" value="Device Information:\n  Hardware Version: %s\n  Firmware Version: %s\n  Driver Version: %s\n  API Library Version: %s\n  IRQ Num: %s\n  Channels: %s\n  Serial Num: %s\n  Device Type: %s"/>
+  <string id="44" value="Normal"/>
+  <string id="45" value="Single Send"/>
+  <string id="46" value="SelfTest"/>
+  <string id="47" value="Single SelfTest"/>
+  <string id="48" value="StandardFrame"/>
+  <string id="49" value="ExtendedFrame"/>
+  <string id="50" value="Both"/>
+  <string id="51" value="No Operation"/>
+  <string id="52" value="This Device don't support set filter dynamic."/>
+	<dialog id="149" caption="参数设置" fontsize="9" fontface="宋体" style="-2134376256" position="0, 0, 280, 343">
+		<control class="BUTTON" caption="错误信息" style="1342177287" position="4, 4, 272, 300"/>
+		<control id="1" class="BUTTON" caption="确定" style="1342242816" position="108, 316, 60, 16"/>
+		<control id="1001" class="BUTTON" caption="获取错误信息" style="1342242816" position="108, 280, 62, 16"/>
+		<control id="1002" class="SysListView32" caption="List1" style="1350631425" position="12, 16, 256, 252"/>
+	</dialog>
+	<dialog id="1000" caption="滤波设置" fontsize="9" fontface="新宋体" style="-2134376256" position="0, 0, 240, 279">
+		<control id="1" class="BUTTON" caption="确定" style="1342242817" position="67, 252, 50, 16"/>
+		<control id="2" class="BUTTON" caption="取消" style="1342242816" position="123, 252, 50, 16"/>
+		<control class="BUTTON" caption="参数" style="1342177287" position="4, 4, 232, 236"/>
+		<control id="1003" class="SysListView32" caption="List1" style="1350631437" position="12, 16, 216, 148"/>
+		<control caption="通道" position="11, 197, 36, 8"/>
+		<control caption="模式" position="12, 180, 36, 8"/>
+		<control caption="起始帧ID: 0x" position="136, 176, 49, 8"/>
+		<control caption="结束帧ID: 0x" position="136, 196, 49, 8"/>
+		<control id="1004" class="BUTTON" caption="添加" style="1342242816" position="124, 216, 50, 16"/>
+		<control id="1005" class="BUTTON" caption="删除" style="1342242816" position="180, 216, 50, 16"/>
+		<control id="1006" class="BUTTON" caption="开启滤波" style="1342242819" position="12, 220, 96, 10"/>
+		<control id="1007" class="COMBOBOX" style="1344340227" position="47, 193, 84, 64"/>
+		<control id="1008" class="COMBOBOX" style="1344340227" position="48, 176, 84, 64"/>
+		<control id="1009" class="EDIT" style="1350631552" position="188, 172, 40, 14"/>
+		<control id="1010" class="EDIT" style="1350631552" position="188, 192, 40, 14"/>
+	</dialog>
+	<dialog id="2000" caption="Open Device-EG20T CAN" fontsize="9" fontface="宋体" style="-1865940800" position="0, 0, 248, 262">
+		<control class="BUTTON" style="1342177287" position="128, 73, 110, 68"/>
+		<control id="1015" class="BUTTON" caption="Customize" style="1342242819" position="131, 73, 67, 11"/>
+		<control caption="Device Index:" position="12, 24, 47, 8"/>
+		<control id="2015" class="COMBOBOX" style="1344340227" position="63, 21, 48, 191"/>
+		<control id="1" class="BUTTON" caption="OK" style="1342242817" position="67, 215, 50, 16"/>
+		<control id="2" class="BUTTON" caption="Cancel" style="1342242816" position="130, 215, 50, 16"/>
+		<control id="1004" class="BUTTON" caption="OK and Start" style="1342242816" position="67, 238, 113, 16"/>
+		<control id="1011" class="COMBOBOX" style="1344340227" position="177, 21, 48, 64"/>
+		<control caption="Channel" position="127, 23, 44, 8"/>
+		<control class="BUTTON" caption="Device Param" style="1342177287" position="4, 4, 238, 56"/>
+		<control class="BUTTON" caption="Init Param" style="1342177287" position="4, 64, 239, 88"/>
+		<control caption="Baud" position="11, 83, 33, 8"/>
+		<control caption="WorkMode" position="11, 106, 33, 8"/>
+		<control id="1012" class="COMBOBOX" style="1344340227" position="55, 81, 65, 120"/>
+		<control id="1013" class="COMBOBOX" style="1344340227" position="55, 104, 65, 64"/>
+		<control id="2002" class="BUTTON" caption="Select all" style="1342242819" position="164, 41, 62, 11"/>
+		<control class="BUTTON" caption="Filter Config" style="1342177287" position="4, 155, 239, 51"/>
+		<control caption="SendType" position="11, 129, 33, 8"/>
+		<control id="1014" class="COMBOBOX" style="1344340227" position="55, 127, 65, 64"/>
+		<control caption="ACR:0x" position="13, 172, 37, 8"/>
+		<control caption="AMR:0x" position="14, 187, 37, 8"/>
+		<control id="4012" class="EDIT" style="1350631552" position="56, 169, 53, 13"/>
+		<control id="4014" class="EDIT" style="1350631552" position="56, 185, 53, 13"/>
+		<control caption="Mode" position="119, 172, 33, 8"/>
+		<control id="4080" class="COMBOBOX" style="1344339971" position="161, 169, 74, 60"/>
+		<control caption="Timer0:0x" position="136, 92, 38, 8"/>
+		<control id="9000" class="EDIT" style="1350631552" position="182, 90, 40, 14"/>
+		<control caption="Timer1:0x" position="136, 112, 38, 8"/>
+		<control id="9001" class="EDIT" style="1350631552" position="182, 108, 40, 14"/>
+	</dialog>
+	<dialog id="9002" caption="Dialog" fontface="MS Shell Dlg" style="-2134376248" position="0, 0, 241, 185">
+		<control caption="Scaler" style="1342308354" position="2, 66, 24, 9"/>
+		<control id="4004" class="EDIT" style="1350639744" position="32, 65, 45, 12"/>
+		<control id="4005" class="msctls_updown32" style="1342177334" position="77, 64, 11, 14"/>
+		<control caption="TSEG1" style="1342308354" position="2, 100, 24, 9"/>
+		<control id="4006" class="EDIT" style="1350639744" position="32, 96, 45, 12"/>
+		<control id="4007" class="msctls_updown32" style="1342177334" position="77, 95, 11, 14"/>
+		<control caption="TSEG2" style="1342308354" position="2, 116, 24, 9"/>
+		<control id="4008" class="EDIT" style="1350639744" position="32, 112, 45, 12"/>
+		<control id="4009" class="msctls_updown32" style="1342177334" position="77, 112, 11, 14"/>
+		<control caption="SJW" style="1342308354" position="0, 83, 24, 9"/>
+		<control id="4010" class="EDIT" style="1350639744" position="32, 81, 45, 12"/>
+		<control id="4011" class="msctls_updown32" style="1342177334" position="77, 79, 11, 14"/>
+	</dialog>
+</resource>
